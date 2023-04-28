@@ -166,7 +166,7 @@ Windows 10 uses the security protocol PROTOCL_HYBRID_EX by default, and some bru
 
 With this, we are nearing the end of this article. Whether it is the development of tools or the testing of various tools with RDP screenshots or brute-force attacks, it has taken a lot of time and effort. The purpose of this article is not to belittle other tools, as they are all pioneers and pave the way for later advancements. Rather, it is to encourage us to speak up and criticize the imperfections of the tools during the usage process, and even try to make improvements. By using falsehood to attain the truth, we can make tools better. What is false and what is true? In Buddhism, the body is false, while the path to enlightenment is true. Tools are false, and technology is true. This applies not only to tools, but also to the industry and to ourselves. Ultimately, the goal is to improve ourselves through learning from our experiences.
 
-Goby now possesses all the capabilities mentioned in this article. We welcome our readers to try it out by clicking on this link: https://gobysec.net/#dl
+Goby now possesses all the capabilities mentioned in this article. We welcome our readers to try it out by clicking on this link: https://gobies.org/update
 
 ## 0x05 References
 
