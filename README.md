@@ -2,6 +2,10 @@
 
 # Research—By Goby
 
+## [*Vulnerability Analysis | Exploring Jenkins Vulnerability for Echoing and Exploitation Effects* ](https://github.com/gobysec/Research/blob/main/Exploring_Jenkins_Vulnerability_for_Echoing_and_Exploitation_Effects_en_US.md)
+
+Abstract：In this article, we take the Jenkins deserialization vulnerability as an optimization case study to share our approach in addressing vulnerability issues. First, users reported an issue with the inability to exploit the Jenkins vulnerability. During the vulnerability analysis process, we found that the previous exploit relied on a specific JAR file, which Goby did not have integrated, resulting in the inability to exploit the vulnerability. Reintroducing this JAR file into Goby would make the program bloated, and this exploitation method lacks the desired echo effect, which is not in line with Goby's standards of simplicity, efficiency, high compatibility with multiple versions, and direct echo effect for vulnerabilities. Therefore, by analyzing the relevant materials of CVE-2017-1000353 and studying Jenkins' echo functionality, we ultimately achieved high version compatibility, one-click command execution, and reverse shell effect on Goby. This made the vulnerability exploitation process more concise, intuitive, and efficient.
+
 ## [*Headshot: One Strike, Vulnerability Scanning for Designated URLs in Batches* ](https://github.com/gobysec/Research/blob/main/Headshot_One_Strike_Vulnerability_Scanning_for_Designated_URLs_in_Batches_en_US.md)
 
 Abstract：Headshot，it allows users to input URLs and select custom PoCs, making it easier to conduct real-world penetration testing and exploitation. With this plugin, we can now use Goby more flexibly to deal with scenarios like Struts2 vulnerabilities.
