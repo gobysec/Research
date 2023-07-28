@@ -2,6 +2,10 @@
 
 # Research—By Goby
 
+## [*Metabase Code Execution Vulnerability (CVE-2023-38646): Exploiting H2 JDBC in Depth* ](https://github.com/gobysec/Research/blob/main/Metabase_Code_Execution_Vulnerability_(CVE-2023-38646)_Exploiting_H2_JDBC_in_Depth_en_US.md)
+
+Abstract：Previously, pyn3rd published "Make JDBC Attacks Brilliant Again I," which demonstrated the exploitation of the H2 database. By using RUNSCRIPT and TRIGGER, they were able to execute code. Through the exploitation of this vulnerability using TRIGGER + DefineClass, complete Java code execution and vulnerability echo were achieved. Additionally, this technique is compatible with Jetty11, even though only Jetty10 is officially supported. The following is the achievement we made in Goby.
+
 ## [*Vulnerability Analysis | Exploring Jenkins Vulnerability for Echoing and Exploitation Effects* ](https://github.com/gobysec/Research/blob/main/Exploring_Jenkins_Vulnerability_for_Echoing_and_Exploitation_Effects_en_US.md)
 
 Abstract：In this article, we take the Jenkins deserialization vulnerability as an optimization case study to share our approach in addressing vulnerability issues. First, users reported an issue with the inability to exploit the Jenkins vulnerability. During the vulnerability analysis process, we found that the previous exploit relied on a specific JAR file, which Goby did not have integrated, resulting in the inability to exploit the vulnerability. Reintroducing this JAR file into Goby would make the program bloated, and this exploitation method lacks the desired echo effect, which is not in line with Goby's standards of simplicity, efficiency, high compatibility with multiple versions, and direct echo effect for vulnerabilities. Therefore, by analyzing the relevant materials of CVE-2017-1000353 and studying Jenkins' echo functionality, we ultimately achieved high version compatibility, one-click command execution, and reverse shell effect on Goby. This made the vulnerability exploitation process more concise, intuitive, and efficient.
