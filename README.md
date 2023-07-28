@@ -4,7 +4,9 @@
 
 ## [*Metabase Code Execution Vulnerability (CVE-2023-38646): Exploiting H2 JDBC in Depth* ](https://github.com/gobysec/Research/blob/main/Metabase_Code_Execution_Vulnerability_(CVE-2023-38646)_Exploiting_H2_JDBC_in_Depth_en_US.md)
 
-Abstract：Previously, pyn3rd published "Make JDBC Attacks Brilliant Again I," which demonstrated the exploitation of the H2 database. By using RUNSCRIPT and TRIGGER, they were able to execute code. Through the exploitation of this vulnerability using TRIGGER + DefineClass, complete Java code execution and vulnerability echo were achieved. Additionally, this technique is compatible with Jetty11, even though only Jetty10 is officially supported. The following is the achievement we made in Goby.
+Abstract：Recently, Metabase has encountered a remote code execution vulnerability (CVE-2023-38646). Our research and analysis have revealed that this vulnerability is exploited through JDBC. Metabase supports multiple databases, and in this particular vulnerability, it is primarily triggered through H2 JDBC connection information. Currently, the publicly available techniques for in-depth exploitation of the H2 database only allow for simple command execution, which does not meet the requirements of real-world attack and defense scenarios.
+
+Previously, pyn3rd published "Make JDBC Attacks Brilliant Again I," which demonstrated the exploitation of the H2 database. By using RUNSCRIPT and TRIGGER, they were able to execute code. Through the exploitation of this vulnerability using TRIGGER + DefineClass, complete Java code execution and vulnerability echo were achieved. Additionally, this technique is compatible with Jetty11, even though only Jetty10 is officially supported. The following is the achievement we made in Goby.
 
 ## [*Vulnerability Analysis | Exploring Jenkins Vulnerability for Echoing and Exploitation Effects* ](https://github.com/gobysec/Research/blob/main/Exploring_Jenkins_Vulnerability_for_Echoing_and_Exploitation_Effects_en_US.md)
 
