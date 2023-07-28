@@ -2,6 +2,13 @@
 
 # 安全技术研究 - Goby
 
+## [《漏洞分析｜Metabase 远程代码执行(CVE-2023-38646): H2 JDBC 深入利用》](https://github.com/gobysec/Research/blob/main/Metabase_Code_Execution_Vulnerability_(CVE-2023-38646)_Exploing_H2_JDBC_in_Depthzh_CN.md)
+
+摘要：最近 Metabase 出了一个远程代码执行漏洞（CVE-2023-38646），我们通过研究分析发现该漏洞是通过 JDBC 来利用的。在 Metabase 中兼容了多种数据库，本次漏洞中主要通过 H2 JDBC 连接信息触发漏洞。目前公开针对 H2 数据库深入利用的技术仅能做到简单命令执行，无法满足实际攻防场景。
+
+之前 pyn3rd 发布的 《Make JDBC Attacks Brilliant Again I 》 对 H2 数据库的利用中可以通过 RUNSCRIPT、TRIGGER 来执行代码，通过本次漏洞利用 TRIGGER + DefineClass 完整的实现了 JAVA 代码执行和漏洞回显，且在公开仅支持 Jetty10 版本的情况下兼容到了 Jetty11，以下是我们在 Goby 中成果。
+
+
 ## [《漏洞分析｜死磕Jenkins漏洞回显与利用效果》](https://github.com/gobysec/Research/blob/main/Exploring_Jenkins_Vulnerability_for_Echoing_and_Exploitation_Effects_zh_CN.md)
 
 摘要：本文以Jenkins反序列化漏洞作为优化案例，分享我们的解决漏洞问题的方式。首先，用户反馈了Jenkins 漏洞无法利用的问题。在漏洞分析过程中，发现之前的EXP利用中依赖了一个jar包，由于Goby没有外挂该jar包导致漏洞的无法利用。如果我们重新加入这个jar包的话，会使Goby程序变得臃肿，且这种利用方式没有回显效果，这并不符合Goby简洁高效、多版本兼容性、具有直接的回显效果的漏洞标准。因此，我们通过分析CVE-2017-1000353的相关材料，研究Jenkins的回显功能，最终在Goby上完成了高版本兼容、一键命令执行、反弹shell的效果，让漏洞利用变得更加简洁、直观、高效。
