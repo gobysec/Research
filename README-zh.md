@@ -2,6 +2,12 @@
 
 # 安全技术研究 - Goby
 
+## [《漏洞分析｜Adobe ColdFusion 序列化漏洞（CVE-2023-29300）》](https://github.com/gobysec/Research/blob/main/Adobe_Coldfusion_remote_code_execution_vulnerability_Analysis_(CVE-2023-38204)_zh_CN.md)
+
+摘要：本文将从 ColdFusion 2023 发布版的 Update 1 安全更新内容入手，详细分析 CVE-2023-29300 的漏洞成因，并提出一些后续的研究方向。
+
+我们在 Goby 中已经集成了 CVE-2023-29300 漏洞的 JNDI 利用链（CVE-2023-38204），实现了命令执行回显和自定义 ldap 服务器地址的功能。
+
 ## [《漏洞分析｜Metabase 远程代码执行(CVE-2023-38646): H2 JDBC 深入利用》](https://github.com/gobysec/Research/blob/main/Metabase_Code_Execution_Vulnerability_(CVE-2023-38646)_Exploing_H2_JDBC_in_Depthzh_CN.md)
 
 摘要：最近 Metabase 出了一个远程代码执行漏洞（CVE-2023-38646），我们通过研究分析发现该漏洞是通过 JDBC 来利用的。在 Metabase 中兼容了多种数据库，本次漏洞中主要通过 H2 JDBC 连接信息触发漏洞。目前公开针对 H2 数据库深入利用的技术仅能做到简单命令执行，无法满足实际攻防场景。
