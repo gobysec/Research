@@ -2,6 +2,12 @@
 
 # Research—By Goby
 
+## [*Adobe Coldfusion remote code execution vulnerability Analysis (CVE-2023-38204)* ](https://github.com/gobysec/Research/blob/main/Adobe_Coldfusion_remote_code_execution_vulnerability_Analysis_(CVE-2023-38204)_en_US.md)
+
+Abstract：This article will start by examining the content of the security update in ColdFusion 2023 Release Update 1, analyze the cause of CVE-2023-29300, and propose some follow-up research directions.
+
+In Goby, we have integrated the JNDI exploitation chain (CVE-2023-38204) for CVE-2023-29300, enabling command execution and custom LDAP server address functionality. 
+
 ## [*Metabase Code Execution Vulnerability (CVE-2023-38646): Exploiting H2 JDBC in Depth* ](https://github.com/gobysec/Research/blob/main/Metabase_Code_Execution_Vulnerability_(CVE-2023-38646)_Exploiting_H2_JDBC_in_Depth_en_US.md)
 
 Abstract：Recently, Metabase has encountered a remote code execution vulnerability (CVE-2023-38646). Our research and analysis have revealed that this vulnerability is exploited through JDBC. Metabase supports multiple databases, and in this particular vulnerability, it is primarily triggered through H2 JDBC connection information. Currently, the publicly available techniques for in-depth exploitation of the H2 database only allow for simple command execution, which does not meet the requirements of real-world attack and defense scenarios.
