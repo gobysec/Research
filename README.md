@@ -2,6 +2,10 @@
 
 # Research—By Goby
 
+## [*Adobe ColdFusion WDDX Serialization Vulnerability Exploitation* ](https://github.com/gobysec/Research/blob/main/Adobe_ColdFusion_WDDX_Serialization_Vulnerability_Exploitation_en_US.md)
+
+Abstract：This article will share the non-network exploitation method following CVE-2023-29300, and propose two new exploitation chains based on service error deployment, C3P0 and JGroups. 
+
 ## [*Adobe Coldfusion remote code execution vulnerability Analysis (CVE-2023-38204)* ](https://github.com/gobysec/Research/blob/main/Adobe_Coldfusion_remote_code_execution_vulnerability_Analysis_(CVE-2023-38204)_en_US.md)
 
 Abstract：This article will start by examining the content of the security update in ColdFusion 2023 Release Update 1, analyze the cause of CVE-2023-29300, and propose some follow-up research directions.
