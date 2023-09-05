@@ -2,6 +2,13 @@
 
 # 安全技术研究 - Goby
 
+## [《漏洞分析｜Adobe ColdFusion WDDX 序列化漏洞利用 ](https://github.com/gobysec/Research/blob/main/Adobe_ColdFusion_WDDX_Serialization_Vulnerability_Exploitation_zh_CN.md)
+
+摘要：本文将分享继 CVE-2023-29300 之后的不出网利用方式，提出 C3P0 和 JGroups 两条基于服务错误部署的新利用链。
+
+现 Goby 中实现了 C3P0 和 JGroups 利用链的完整利用，完全支持命令执行以及结果回显功能。
+
+
 ## [《漏洞分析｜Adobe ColdFusion 序列化漏洞（CVE-2023-29300）》](https://github.com/gobysec/Research/blob/main/Adobe_Coldfusion_remote_code_execution_vulnerability_Analysis_(CVE-2023-38204)_zh_CN.md)
 
 摘要：本文将从 ColdFusion 2023 发布版的 Update 1 安全更新内容入手，详细分析 CVE-2023-29300 的漏洞成因，并提出一些后续的研究方向。
