@@ -2,7 +2,12 @@
 
 # 安全技术研究 - Goby
 
-## [《漏洞分析｜Adobe ColdFusion WDDX 序列化漏洞利用 ](https://github.com/gobysec/Research/blob/main/Adobe_ColdFusion_WDDX_Serialization_Vulnerability_Exploitation_zh_CN.md)
+## [《技术分享 | 跨越语言的艺术：Flask Session 伪造 》 ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages:_Flask_Session_Forgery_zh_CN.md)
+
+摘要：本文以 Apache Superset 权限绕过漏洞（CVE-2023-27524） 为例讲述我们是如何在 Go 中实现 Flask 框架的 Session 验证、生成功能的。
+
+
+## [《漏洞分析｜Adobe ColdFusion WDDX 序列化漏洞利用 》 ](https://github.com/gobysec/Research/blob/main/Adobe_ColdFusion_WDDX_Serialization_Vulnerability_Exploitation_zh_CN.md)
 
 摘要：本文将分享继 CVE-2023-29300 之后的不出网利用方式，提出 C3P0 和 JGroups 两条基于服务错误部署的新利用链。
 
