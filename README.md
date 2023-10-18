@@ -2,6 +2,11 @@
 
 # Research—By Goby
 
+
+
+## [*The Art of Crossing Languages: Flask Session Forgery* ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages%3A_Flask_Session_Forgery_en_US.md)
+Abstract：This article takes the Apache Superset permission bypass vulnerability (CVE-2023-27524) as an example to describe how we implement the Session verification and generation functions of the Flask framework in Go.
+
 ## [*Adobe ColdFusion WDDX Serialization Vulnerability Exploitation* ](https://github.com/gobysec/Research/blob/main/Adobe_ColdFusion_WDDX_Serialization_Vulnerability_Exploitation_en_US.md)
 
 Abstract：This article will share the non-network exploitation method following CVE-2023-29300, and propose two new exploitation chains based on service error deployment, C3P0 and JGroups. 
