@@ -2,6 +2,11 @@
 
 # 安全技术研究 - Goby
 
+
+## [《技术分享 | 针对蜜罐反制Goby背后的故事 》 ]((https://github.com/gobysec/Research/blob/main/The_story_behind_countering_Goby_against_honeypots_zh_CN.md)
+
+摘要：本文分享了Goby在实战过程中所遇到的蜜罐，并进一步进行了深入分析。
+
 ## [《技术分享 | 跨越语言的艺术：Flask Session 伪造 》 ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages:_Flask_Session_Forgery_zh_CN.md)
 
 摘要：本文以 Apache Superset 权限绕过漏洞（CVE-2023-27524） 为例讲述我们是如何在 Go 中实现 Flask 框架的 Session 验证、生成功能的。
