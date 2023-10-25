@@ -2,7 +2,7 @@
 
 # Research—By Goby
 
-## [*The_story_behind_countering_Goby_against_honeypots* ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages%3A_Flask_Session_Forgery_en_US.md)
+## [*The_story_behind_countering_Goby_against_honeypots* ](https://github.com/gobysec/Research/blob/main/The_story_behind_countering_Goby_against_honeypots_en_US.md#the-story-behind-countering-goby-against-honeypots)
 This article shares the honeypots that Goby encountered in actual combat and further conducted in-depth analysis.
 
 ## [*The Art of Crossing Languages: Flask Session Forgery* ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages%3A_Flask_Session_Forgery_en_US.md)
