@@ -2,7 +2,8 @@
 
 # Research—By Goby
 
-
+## [*The_story_behind_countering_Goby_against_honeypots* ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages%3A_Flask_Session_Forgery_en_US.md)
+This article shares the honeypots that Goby encountered in actual combat and further conducted in-depth analysis.
 
 ## [*The Art of Crossing Languages: Flask Session Forgery* ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages%3A_Flask_Session_Forgery_en_US.md)
 Abstract：This article takes the Apache Superset permission bypass vulnerability (CVE-2023-27524) as an example to describe how we implement the Session verification and generation functions of the Flask framework in Go.
