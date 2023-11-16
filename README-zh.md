@@ -2,6 +2,9 @@
 
 # 安全技术研究 - Goby
 
+## [《漏洞分析 | 漏洞调试的捷径：精简代码加速分析与利用 》 ](https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_zh_CN.md))
+
+摘要：本文为了便于调试能够快速复现该漏洞（CVE-2023-47246），尝试通过只使用部分的单元代码来模拟漏洞的主要逻辑流程进行动态调试分析。最终，成功利用 Goby 工具完美地实现了该漏洞的利用。
 
 ## [《技术分享 | 针对蜜罐反制Goby背后的故事 》 ](https://github.com/gobysec/Research/blob/main/The_story_behind_countering_Goby_against_honeypots_zh_CN.md)
 
