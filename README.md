@@ -2,6 +2,9 @@
 
 # Research—By Goby
 
+## [*A_shortcut_to_vulnerability_debugging:_streamlining_code_to_speed_up_analysis_and_exploitation* ](https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_en_US.md)
+In order to facilitate debugging and quickly reproduce the vulnerability, this article attempts to simulate the main logic flow of the vulnerability by using only part of the unit code for dynamic debugging analysis.
+
 ## [*The_story_behind_countering_Goby_against_honeypots* ](https://github.com/gobysec/Research/blob/main/The_story_behind_countering_Goby_against_honeypots_en_US.md#the-story-behind-countering-goby-against-honeypots)
 This article shares the honeypots that Goby encountered in actual combat and further conducted in-depth analysis.
 
