@@ -1,5 +1,9 @@
 [English](https://github.com/gobysec/Research/blob/main/README.md)｜ [中文](https://github.com/gobysec/Research/blob/main/README-zh.md)
 
+# AI Technology Research - Goby
+## [*What! The author of this PoCEXP is actually...?* ](https://github.com/gobysec/Research/blob/main/What!%20The%20author%20of%20this%20PoCEXP%20is%20actually...%3F.md)
+Abstract:This article aims to showcase the technical approach of Goby AI 2.0 in intelligently generating EXP (exploit codes) and demonstrate the practical detection results of GobyAI 2.0 on the "SQL Injection Vulnerability in Supabase Backend Service Platform". Ultimately, the Poc/EXP intelligently output by the AI Bot perfectly meets the inclusion criteria for Goby vulnerabilities.
+
 # Research—By Goby
 
 ## [*A_shortcut_to_vulnerability_debugging:_streamlining_code_to_speed_up_analysis_and_exploitation* ](https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_en_US.md)
