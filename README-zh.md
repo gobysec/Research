@@ -1,5 +1,11 @@
 [English](https://github.com/gobysec/Research/blob/main/README.md)｜ [中文](https://github.com/gobysec/Research/blob/main/README-zh.md)
 
+# AI技术研究 - Goby
+
+## [《什么？这条Poc/EXP的作者竟是？ 》 ](https://github.com/gobysec/Research/blob/main/%E4%BB%80%E4%B9%88%EF%BC%81%E8%BF%99%E6%9D%A1PoCEXP%E7%9A%84%E4%BD%9C%E8%80%85%E7%AB%9F%E6%98%AF%EF%BC%9F.md))
+
+摘要：文为展示Goby AI 2.0的对EXP智能生成的技术攻略，及GobyAI 2.0 对《Supabase 后端服务平台 SQL注入漏洞》的实战检测成果演示。最终，AI Bot智能输出的Poc/EXP完美符合Goby漏洞收录标准。
+
 # 安全技术研究 - Goby
 
 ## [《漏洞分析 | 漏洞调试的捷径：精简代码加速分析与利用 》 ](https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_zh_CN.md))
