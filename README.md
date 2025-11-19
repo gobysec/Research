@@ -5,12 +5,14 @@
 Abstract:This article aims to showcase the technical approach of Goby AI 2.0 in intelligently generating EXP (exploit codes) and demonstrate the practical detection results of GobyAI 2.0 on the "SQL Injection Vulnerability in Supabase Backend Service Platform". Ultimately, the Poc/EXP intelligently output by the AI Bot perfectly meets the inclusion criteria for Goby vulnerabilities.
 
 # Research—By Goby
+## [*Technical Sharing | EXP Capability Upgrade (Part 1): Solving the Fixed-Path Challenge in Goby – Insights from CVE-2025-61882* ](https://github.com/gobysec/Research/blob/44fc6dc51027ab732b92122e24c0958916474f7c/Technical%20Sharing%20%7C%20EXP%20Capability%20Upgrade%20(Part%201)%3A%20Solving%20the%20Fixed-Path%20Challenge%20in%20Goby%20%E2%80%93%20Insights%20from%20CVE-2025-61882.md)
+Abstract：When the target only parses the Payload for fixed paths (e.g., CVE-2025-61882), the Goby EXP module cannot adapt. This article mainly introduces how the Goby EXP module upgrades its capabilities to address and break through this issue.
 
 ## [*A_shortcut_to_vulnerability_debugging:_streamlining_code_to_speed_up_analysis_and_exploitation* ](https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_en_US.md)
-In order to facilitate debugging and quickly reproduce the vulnerability, this article attempts to simulate the main logic flow of the vulnerability by using only part of the unit code for dynamic debugging analysis.
+Abstract：In order to facilitate debugging and quickly reproduce the vulnerability, this article attempts to simulate the main logic flow of the vulnerability by using only part of the unit code for dynamic debugging analysis.
 
 ## [*The_story_behind_countering_Goby_against_honeypots* ](https://github.com/gobysec/Research/blob/main/The_story_behind_countering_Goby_against_honeypots_en_US.md#the-story-behind-countering-goby-against-honeypots)
-This article shares the honeypots that Goby encountered in actual combat and further conducted in-depth analysis.
+Abstract：This article shares the honeypots that Goby encountered in actual combat and further conducted in-depth analysis.
 
 ## [*The Art of Crossing Languages: Flask Session Forgery* ](https://github.com/gobysec/Research/blob/main/The_Art_of_Crossing_Languages%3A_Flask_Session_Forgery_en_US.md)
 Abstract：This article takes the Apache Superset permission bypass vulnerability (CVE-2023-27524) as an example to describe how we implement the Session verification and generation functions of the Flask framework in Go.
