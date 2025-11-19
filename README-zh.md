@@ -8,11 +8,10 @@
 
 # 安全技术研究 - Goby
 
-## [《技术分享 | EXP能力升级（第一期）：从CVE-2025-61882看Goby如何破解路径固定难题 》 ]([https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_zh_CN.md](https://github.com/gobysec/Research/blob/main/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20%7C%20EXP%E8%83%BD%E5%8A%9B%E5%8D%87%E7%BA%A7%EF%BC%88%E7%AC%AC%E4%B8%80%E6%9C%9F%EF%BC%89%EF%BC%9A%E4%BB%8ECVE-2025-61882%E7%9C%8BGoby%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E8%B7%AF%E5%BE%84%E5%9B%BA%E5%AE%9A%E9%9A%BE%E9%A2%98.md
-))
+## [《技术分享 | EXP能力升级（第一期）：从CVE-2025-61882看Goby如何破解路径固定难题 》 ](https://github.com/gobysec/Research/blob/main/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20%7C%20EXP%E8%83%BD%E5%8A%9B%E5%8D%87%E7%BA%A7%EF%BC%88%E7%AC%AC%E4%B8%80%E6%9C%9F%EF%BC%89%EF%BC%9A%E4%BB%8ECVE-2025-61882%E7%9C%8BGoby%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E8%B7%AF%E5%BE%84%E5%9B%BA%E5%AE%9A%E9%9A%BE%E9%A2%98.md)
 
+摘要：在目标只针对固定路径进行Payload解析的情况下(例如：CVE-2025-61882），Goby EXP模块无法进行适配，本文主要介绍Goby EXP模块如何这一问题进行能力升级与突破。
 
-摘要：本文为了便于调试能够快速复现该漏洞（CVE-2023-47246），尝试通过只使用部分的单元代码来模拟漏洞的主要逻辑流程进行动态调试分析。最终，成功利用 Goby 工具完美地实现了该漏洞的利用。
 ## [《漏洞分析 | 漏洞调试的捷径：精简代码加速分析与利用 》 ](https://github.com/gobysec/Research/blob/main/A_shortcut_to_vulnerability_debugging%3A_streamlining_code_to_speed_up_analysis_and_exploitation_zh_CN.md)
 
 摘要：本文为了便于调试能够快速复现该漏洞（CVE-2023-47246），尝试通过只使用部分的单元代码来模拟漏洞的主要逻辑流程进行动态调试分析。最终，成功利用 Goby 工具完美地实现了该漏洞的利用。
