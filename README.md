@@ -5,6 +5,9 @@
 Abstract:This article aims to showcase the technical approach of Goby AI 2.0 in intelligently generating EXP (exploit codes) and demonstrate the practical detection results of GobyAI 2.0 on the "SQL Injection Vulnerability in Supabase Backend Service Platform". Ultimately, the Poc/EXP intelligently output by the AI Bot perfectly meets the inclusion criteria for Goby vulnerabilities.
 
 # Research—By Goby
+## [*Technical Sharing | EXP Capability Upgrade (Part 2): Still Manually Setting Up FTP? See How Goby Effortlessly Obtains Shells for Service-Dependent Vulnerabilities* ](https://github.com/gobysec/Research/blob/main/Technical%20Sharing%20%7C%20EXP%20Capability%20Upgrade%20(Part%202)%3A%20Still%20Manually%20Setting%20Up%20FTP%3F%20See%20How%20Goby%20Effortlessly%20Obtains%20Shells%20for%20Service-Dependent%20Vulnerabilities.md)
+Abstract：This article takes the FTP service-dependent vulnerability (e.g., CVE-2024-56145) as an example to demonstrate how Goby upgrades its EXP (Exploit) capabilities, addresses the difficulties of manually setting up an FTP server, and enables one-click acquisition of a shell in an efficient and convenient manner.
+
 ## [*Technical Sharing | EXP Capability Upgrade (Part 1): Solving the Fixed-Path Challenge in Goby – Insights from CVE-2025-61882* ](https://github.com/gobysec/Research/blob/44fc6dc51027ab732b92122e24c0958916474f7c/Technical%20Sharing%20%7C%20EXP%20Capability%20Upgrade%20(Part%201)%3A%20Solving%20the%20Fixed-Path%20Challenge%20in%20Goby%20%E2%80%93%20Insights%20from%20CVE-2025-61882.md)
 Abstract：When the target only parses the Payload for fixed paths (e.g., CVE-2025-61882), the Goby EXP module cannot adapt. This article mainly introduces how the Goby EXP module upgrades its capabilities to address and break through this issue.
 
