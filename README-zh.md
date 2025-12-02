@@ -8,6 +8,10 @@
 
 # 安全技术研究 - Goby
 
+## [《技术分享|EXP能力升级（二）：还在手搓FTP？看Goby如何一键拿下服务依赖型漏洞shell 》 ](https://github.com/gobysec/Research/blob/main/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%7CEXP%E8%83%BD%E5%8A%9B%E5%8D%87%E7%BA%A7%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E8%BF%98%E5%9C%A8%E6%89%8B%E6%90%93FTP%EF%BC%9F%E7%9C%8BGoby%E5%A6%82%E4%BD%95%E4%B8%80%E9%94%AE%E6%8B%BF%E4%B8%8B%E6%9C%8D%E5%8A%A1%E4%BE%9D%E8%B5%96%E5%9E%8B%E6%BC%8F%E6%B4%9Eshell.md)
+
+摘要：本篇文章以FTP服务依赖型漏洞（CVE-20zhej24-56145为例），展示Goby如何进行EXP能力升级，解决手动搭建FTP服务器的难点，高效便利的一键拿下shell。
+
 ## [《技术分享 | EXP能力升级（第一期）：从CVE-2025-61882看Goby如何破解路径固定难题 》 ](https://github.com/gobysec/Research/blob/main/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20%7C%20EXP%E8%83%BD%E5%8A%9B%E5%8D%87%E7%BA%A7%EF%BC%88%E7%AC%AC%E4%B8%80%E6%9C%9F%EF%BC%89%EF%BC%9A%E4%BB%8ECVE-2025-61882%E7%9C%8BGoby%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E8%B7%AF%E5%BE%84%E5%9B%BA%E5%AE%9A%E9%9A%BE%E9%A2%98.md)
 
 摘要：在目标只针对固定路径进行Payload解析的情况下(例如：CVE-2025-61882），Goby EXP模块无法进行适配，本文主要介绍Goby EXP模块如何这一问题进行能力升级与突破。
